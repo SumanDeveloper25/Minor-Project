@@ -40,6 +40,8 @@ document.forms["passwordGenForm"].addEventListener("submit", function (event) {
 
   passwordOutput.textContent = password;
   passwordOutput.style.display = "block";
+  // add text-white class to passwordOutput
+  passwordOutput.classList.add("txt-white");
 });
 
 function generatePassword(length, uppercase, lowercase, numbers, symbols) {

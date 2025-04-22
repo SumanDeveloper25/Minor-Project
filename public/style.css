@@ -8,6 +8,9 @@
   background-color: #030304;
   color: #fff;
 }
+.txt-white{
+  color: #e1dddd !important;
+} 
 
 .bg-green {
   background-color: #a7fdb2;
@@ -146,4 +149,9 @@ input[type="range"] {
     box-shadow: none;
     transition: transform 0.3s ease;
   }
+  #copyMessage {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
 }
